@@ -55,7 +55,7 @@
     "@types/react": "^18.0.8",
     "storybook": "BROWSER=none start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-storybook:github": "build-storybook --public-path /react-ui/",
+    "build-storybook:github": "build-storybook",
     "build-es": "rollup --config rollup/rollup.esm.config.js",
     "build-umd": "rollup --config rollup/rollup.umd.config.js"
   },
